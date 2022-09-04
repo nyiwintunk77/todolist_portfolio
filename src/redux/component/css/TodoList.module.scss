@@ -1,0 +1,24 @@
+.TodoList {
+    min-height: 320px;
+    max-height: 513px;
+    overflow-y: auto;
+}
+
+.All {
+    button {
+        background-color: #bbb3b3;
+        border-radius: 8px;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        left: 45%;
+        text-align: center;
+        position: center;
+        border: none;
+    }
+    span {
+        position: absolute;
+        left: 48%;
+        color: red;
+    }
+}
